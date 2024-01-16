@@ -1,90 +1,122 @@
-# Free React / Next.js landing page template
+![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
 
-![Open React / Next.js template preview](https://user-images.githubusercontent.com/2683512/231426532-c71f4291-4813-401b-a569-ada47fe13efa.png)
+![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
+![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
+![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
+![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
+![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
 
-**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
+## Free React landing page template
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+[Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
+This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
 
-*Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0).*
-*Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3).*
+## Table of contents
 
-## Live demo
+- [Features](#features)
+- [Google Lighthouse](#google-lighthouse)
+  - [Performance](#performance)
+  - [Accessibility](#accessibility)
+  - [Best Practices](#best-practices)
+  - [SEO](#seo)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Special Thanks](#special-thanks)
+- [Usage](#usage)
+- [License](#license)
 
-Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
+## Features
 
-## Open PRO
+Your project will have everything you need to build a modern single-page React app:
 
-[![Open Pro](https://user-images.githubusercontent.com/2683512/151177673-e56ade57-c98d-4c37-b315-d313bd14bb53.png)](https://cruip.com/)
+- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
 
-## Design files
+- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/401KSUS
+- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
+
+- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
+
+- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
+
+- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
+
+- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
+
+- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
+
+## Google Lighthouse
+
+![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
+
+[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+
+### Performance
+
+Audits for metrics like first paint and time to interactive to determine lag.
+
+### Accessibility
+
+Checks for common issues that may prevent users from accessing your content.
+
+### Best Practices
+
+Looks for everything from HTTPS usage to correct image aspect ratios.
+
+### SEO 
+
+Checks for best practices to ensure your site is discoverable.
+
+
+## Demo
+
+Check the live demo here 👉️ https://landy-web.netlify.app/
+
+
+### Installation
+
+You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+
+To create a new app, you have to:
+
+### npx
+
+Use the following command 
+
+```sh
+npx create-react-app my-app --template adrinlol
+cd my-app
+npm start
+```
+
+## What's included
+
+- [axios][axios] - Promise based HTTP client for the browser and Node.js.
+- [antd][antd] - React UI library that contains a set of high quality components.
+- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
+- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
+- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
+
+## Special thanks
+
+[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
 
 ## Usage
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
 
-### Getting Started
+## License
 
-First, run the development server:
+Licensed under the MIT license.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-### Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-### Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-### Support notes
-This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
-
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-
-## Terms and License
-
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2023 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+<!-- prettier-ignore-start -->
+[axios]: https://github.com/axios/axios
+[antd]: https://github.com/ant-design/ant-design
+[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
+[styled-componets]: https://github.com/styled-components/styled-components
+[i18next]: https://github.com/i18next/i18next
+[whoooa]: https://www.whoooa.rocks/
+[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
+[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
+<!-- prettier-ignore-end -->
