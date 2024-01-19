@@ -106,13 +106,13 @@ Now, your theme is ready to be deployed. All generated files are located at `out
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/devsocialtech/landing)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ilya-bkv/balanceboard)
 
 ### Deploy to Vercel
 
 Deploy this Next JS Boilerplate on Vercel in one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/devsocialtech/landing)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ilya-bkv/balanceboard)
 
 ### VSCode information (optional)
 
